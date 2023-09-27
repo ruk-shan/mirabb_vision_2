@@ -1,0 +1,15 @@
+There are 3 folders here. 
+1 calibtation -  
+    comm sequence between halcon and python server
+    b'Ball' > robot move to top of the ball and wait
+    b'get_pos' >     send TCP 
+    b'Home' > send robot to home pos
+    b'CaliPos_0' > move robot to pos 1
+    b'get_pos' > send TCP 
+
+2 box detection
+    end of each cycle halcon sends cordinates
+    example      b'-0.604110,0.058322,-0.412929,4.874123,3.094716,92.394025'
+
+3 abb comm 
+    send tring to abb 
