@@ -7,3 +7,4 @@ Running the calibration code
  note: this ip is sever's host IP.
  start the server code
  start the halcon client code 
+ node: the robot  waypoint data in the rosbot_pos.txt file
